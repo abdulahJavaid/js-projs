@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Points Counter - Basket Ball</title>
+  <link rel="icon" href="./media/icon/icon-p-cropped.png" />
+
+  <!-- fonts we use -->
+  <!-- headings -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet" />
+  <!-- counter/numbers -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet" />
+
+  <!-- custom css stylesheet link -->
+  <link rel="stylesheet" href="./assets/styles/style.css" />
+</head>
+
+<body>
+
+  <div id="main" class="main">
+    <div id="board" class="board">
+      <div id="home" class="counter-container">
+        <h2 class="h2">Home</h2>
+        <div id="hPoints" class="points"></div>
+        <div class="buttons">
+          <button id="hBtn1" class="btn">+1</button>
+          <button id="hBtn2" class="btn">+2</button>
+          <button id="hBtn3" class="btn">+3</button>
+        </div>
+      </div>
+      <div id="guest" class="counter-container">
+        <h2 class="h2">Guest</h2>
+        <div id="gPoints" class="points"></div>
+        <div class="buttons">
+          <button id="gBtn1" class="btn">+1</button>
+          <button id="gBtn2" class="btn">+2</button>
+          <button id="gBtn3" class="btn">+3</button>
+        </div>
+      </div>
+      <div id="reset">
+      <button id="btn-reset" class="btn-reset">
+        Reset
+      </button>
+    </div>
+    </div>
+    
+  </div>
+
+  <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>

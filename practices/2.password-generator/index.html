@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="icon" href="./media/background/bg-4.jpg">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+    <div id="main" class="main">
+        <div id="text" class="text">
+            <h1 class="title">
+                Generate a <br>
+                <span class="title-green">random password</span>
+            </h1>
+            <p class="description">Never use an insecure password again.</p>
+        </div>
+        <div id="options" class="options">
+            <button id="generate" class="btn btn-generate">Generate Password</button>
+            <input id="length" class="input" placeholder="specify length (5-15)" value="" min="5" max="15"
+                type="number">
+        </div>
+        <hr class="hr">
+        <div id="passwords" class="passwords">
+            <div id="around-1">
+                <input type="text" class="input" id="password-1" name="password-1" value="" disabled>
+            </div>
+            <span class="copy-password copy-password-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-copy" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                </svg>
+            </span>
+            <div id="around-2">
+                <input type="text" class="input" id="password-2" name="password-2" value="" disabled>
+            </div>
+            <span class="copy-password copy-password-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-copy" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                </svg>
+            </span>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/password-generation-chars.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
