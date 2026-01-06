@@ -5,4 +5,5 @@ Practicing js, learning something new
 
 The projects listed above in practices are available to be viewed online, the links are as follows
 
-4.https://darling-choux-28c1be.netlify.app/
+3.https://animated-valkyrie-6cd0ed.netlify.app/ (chrome-extension to save tabs/urls)   
+4.https://darling-choux-28c1be.netlify.app/ (metric/imperial convertor)   
