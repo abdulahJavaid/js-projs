@@ -1,0 +1,84 @@
+/* Main styles */
+
+/* root vars */
+:root {
+    --bg-body: #57595B;
+    --bg-card: #2B2A2A;
+    --bg-card-body: #FFFFF0;
+    --color-text: #000000;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-body);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#card {
+    margin: 2rem auto;
+    max-width: 300px;
+    padding: 2rem;
+    background-color: var(--bg-card);
+    color: var(--color-text);
+    border: 3px solid var(--bg-card-body);
+    border-radius: 7px;
+}
+
+#card-body {
+    padding: 1rem;
+    background-color: var(--bg-card-body);
+    border-radius: 10px;
+}
+
+.stock-entry {
+    font-weight: 700;
+    line-height: 1.35rem;
+    letter-spacing: 0.025rem;
+    transform: scaleY(1.15);
+}
+
+#stock-price {
+    position: relative;
+}
+
+#stock-price.green::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 150px;
+    background: url("../../media/svgs/triangle-green.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#stock-price.red::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 150px;
+    background: url("../../media/svgs/triangle-red.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(-180deg);
+}
+
+#stock-price.grey::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 150px;
+    background: url("../../media/svgs/triangle-red.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(90deg);
+    filter: grayscale(1);
+}
