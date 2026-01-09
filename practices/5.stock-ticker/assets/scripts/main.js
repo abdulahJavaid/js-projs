@@ -8,6 +8,8 @@ class Checks {
 //   static ticker = "green";
 }
 
+// code can be modified a little
+
 renderStockTicker();
 
 setInterval(function () {
