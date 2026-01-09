@@ -1,4 +1,4 @@
-// stock data for the company
+// stock data for the company (fake)
 export function getStockData() {
     let getPrice = (Math.random()*3).toFixed(2);
     let getTime = new Date().toLocaleTimeString("en-GB", {12: true});
