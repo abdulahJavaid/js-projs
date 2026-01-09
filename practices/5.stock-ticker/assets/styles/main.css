@@ -41,6 +41,7 @@ body {
     position: relative;
 }
 
+/* displaying traingles */
 #stock-price.green::after {
     content: "";
     width: 20px;
