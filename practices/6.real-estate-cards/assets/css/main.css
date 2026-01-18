@@ -1,0 +1,84 @@
+/* the main css styles here */
+
+/* the root vars */
+
+:root {
+  --bg-body: #fcf9ea;
+  --bg-card: #fffcfb;
+  --card-text: #1a1a19;
+  --card-shadow: #45474b;
+}
+
+/* styles for body */
+body {
+  margin: 0;
+  background-color: var(--bg-body);
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* main card */
+.card {
+  margin: 1rem auto;
+  max-width: 700px;
+  height: 150px;
+  color: var(--card-text);
+  background-color: var(--bg-card);
+  box-shadow: 0 0 9px 1px var(--card-shadow);
+  border-radius: 7px;
+  display: flex;
+}
+
+.card img {
+  flex: 1 1 0%;
+  width: 50%;
+  height: auto;
+  box-sizing: border-box;
+  object-fit: cover;
+  padding-right: 3rem;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.card-right {
+  flex: 1 1 0%;
+  /* align-self: center; */
+}
+
+.card-right h2 {
+  margin: 1rem 0 0 0;
+  font-size: 1.35rem;
+  letter-spacing: 0.01rem;
+}
+
+.card-right h3 {
+  margin: 0.15rem 0;
+  font-size: 0.85rem;
+}
+
+.card-right p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 750px) {
+  .card {
+    margin: 2rem;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card img {
+    flex: 1 1 0%;
+    width: 100%;
+    padding-right: 0rem;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .card-right {
+    padding: 2rem 0;
+    flex: 1 1 0%;
+    text-align: center;
+  }
+}
