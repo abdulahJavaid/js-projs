@@ -11,3 +11,4 @@ The projects listed above in practices are available to be viewed online, the li
 4. [Unit Converter (metric/imperial)](https://abdulahjavaid.github.io/js-projs/practices/4.unit-converter-metric-imperial)
 5. [Stock Ticker (continuously upadating)](https://abdulahjavaid.github.io/js-projs/practices/5.stock-ticker)
 6. [Dynamic cards](https://abdulahjavaid.github.io/js-projs/practices/6.real-estate-cards)
+7. [Roll Dice (versus battle)](https://abdulahjavaid.github.io/js-projs/practices/7.roll-dice)
