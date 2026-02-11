@@ -1,7 +1,7 @@
 # js-projs
 Practicing js, learning something new
 
-(Note: these projects are progressive and each project gets better with the increasing number count)
+(Note: these are my small practice projects)
 
 The projects listed above in practices are available to be viewed online, the links are as follows
 
@@ -12,3 +12,5 @@ The projects listed above in practices are available to be viewed online, the li
 5. [Stock Ticker (continuously upadating)](https://abdulahjavaid.github.io/js-projs/practices/5.stock-ticker)
 6. [Dynamic cards](https://abdulahjavaid.github.io/js-projs/practices/6.real-estate-cards)
 7. [Roll Dice (versus battle)](https://abdulahjavaid.github.io/js-projs/practices/7.roll-dice)
+8. [Drum Kit](https://abdulahjavaid.github.io/js-projs/practices/8.drum-kit)   
+8. [Simon game](https://abdulahjavaid.github.io/js-projs/practices/9.simon-game-jquery)   
