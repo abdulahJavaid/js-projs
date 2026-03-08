@@ -1,9 +1,9 @@
 # js-projs
-Practicing js, learning something new
+Practicing js
 
-(Note: these are my small practice projects)
+(Note: these are small practice projects)
 
-The projects listed above in practices are available to be viewed online, the links are as follows
+The projects listed above in practices can be viewed online
 
 1. [Points Counter (basket ball)](https://abdulahjavaid.github.io/js-projs/practices/1.points-counter-bb/)     
 2. [Password Generator](https://abdulahjavaid.github.io/js-projs/practices/2.password-generator)   
