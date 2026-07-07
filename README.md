@@ -1,8 +1,4 @@
 # js-projs
-Practicing js
-
-(Note: these are small practice projects)
-
 The projects listed above in practices can be viewed online
 
 1. [Points Counter (basket ball)](https://abdulahjavaid.github.io/js-projs/practices/1.points-counter-bb/)     
@@ -13,4 +9,5 @@ The projects listed above in practices can be viewed online
 6. [Dynamic cards](https://abdulahjavaid.github.io/js-projs/practices/6.real-estate-cards)
 7. [Roll Dice (versus battle)](https://abdulahjavaid.github.io/js-projs/practices/7.roll-dice)
 8. [Drum Kit](https://abdulahjavaid.github.io/js-projs/practices/8.drum-kit)   
-8. [Simon game](https://abdulahjavaid.github.io/js-projs/practices/9.simon-game-jquery)   
+9. [Simon game](https://abdulahjavaid.github.io/js-projs/practices/9.simon-game-jquery)   
+10. [Reach Hundred](https://abdulahjavaid.github.io/js-projs/practices/10.reach-hundred)   
