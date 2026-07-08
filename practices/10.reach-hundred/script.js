@@ -77,7 +77,7 @@ holdBtn.addEventListener('click', function () {
     setTotalScore(scores[activePlayer]);
     setCurrentScore(currentScore);
 
-    if (scores[activePlayer] < 20) {
+    if (scores[activePlayer] < 100) {
       resetPlayerTurn();
     } else {
       playable = false;
