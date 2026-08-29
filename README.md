@@ -1,4 +1,4 @@
-# js-projs
+# js-practices
 The projects listed above in practices can be viewed online
 
 1. [Points Counter (basket ball)](https://abdulahjavaid.github.io/js-practices/practices/1.points-counter-bb/)     
